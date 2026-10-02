@@ -67,7 +67,7 @@ Godotissa sama peli voidaan usein **exportata** eli viedä monelle alustalle (PC
 ## Harjoitus 1: 2D-tasohyppelypeli (ilman tekoälyavustusta)
 
 ![Esimerkki 2D-tasohyppelystä Godotissa](https://github.com/godotengine/godot-demo-projects/raw/master/2d/platformer/screenshots/platformer.webp)
-*Kuva: Godot Engine -tiimin virallinen "2D Platformer" -demoprojekti ([godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects), MIT-lisenssi). Havainnollistaa minkä tasoista tulosta harjoituksella tavoitellaan.*
+*Kuva: Godot Engine -tiimin virallinen "2D Platformer" -demoprojekti ([godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects), MIT-lisenssi).*
 
 **Tavoite:** Opit Godotin perusteet, GDScriptin perussyntaksin, hahmon liikkeen, hypyn ja painovoiman, sekä yksinkertaisen tason rakentamisen — **ilman tekoälyn apua**. Tarkoitus on oppia seuraamalla ohjattua tutoriaalia itse, rivi riviltä.
 
