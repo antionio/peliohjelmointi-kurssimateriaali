@@ -133,7 +133,7 @@ Pelaaja ampuu tai heittää esineen (esim. pallon) kohti pinottua rakennelmaa (l
 
 ---
 
-## Lisämateriaalit ja jatko-opiskelu
+## Lisämateriaalit
 - Godot-dokumentaatio: https://docs.godotengine.org/
-- Brackeys-kanava (YouTube): Godot-tutoriaalisarjat 2D ja 3D peruspeleistä.
-- GDQuest (YouTube/verkkosivu): syvällisempiä GDScript- ja Godot-arkkitehtuurioppaita.
+- Godot 101 - Game Engine Foundations: https://academy.zenva.com/product/godot-101-game-engine-foundations/
+- Brackeys-kanava (YouTube): Godot-tutoriaalisarjat 2D ja 3D peruspeleistä. https://www.youtube.com/@Brackeys
