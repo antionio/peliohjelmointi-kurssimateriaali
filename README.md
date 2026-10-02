@@ -11,7 +11,7 @@ Videopeli ei ole tyypillisesti yhden henkilön tai yhden tiedoston tuotos, vaan 
 
 | Osa-alue | Mitä videopeli sisältää | Esimerkki Godotissa |
 | --- | --- | --- |
-| **Koodi / ohjelmointi** | Pelilogiikka, säännöt, tilakoneet, tekoäly, tallennusjärjestelmät | GDScript-skriptit noodeissa |
+| **Koodi / ohjelmointi** | Pelilogiikka, säännöt, tilakoneet, tekoäly, tallennusjärjestelmät | GDScript-skriptit |
 | **Grafiikka** | 2D-spritet, 3D-mallit, animaatiot, käyttöliittymägrafiikka, partikkelit, valaistus | `Sprite2D`, `AnimatedSprite2D`, `MeshInstance3D` |
 | **Input (syöte)** | Näppäimistö, hiiri, peliohjain, kosketusnäyttö | `Input` singleton, `InputMap` |
 | **Äänet (SFX)** | Askeleet, osumat, esineiden äänet, käyttöliittymän äänet | `AudioStreamPlayer` |
