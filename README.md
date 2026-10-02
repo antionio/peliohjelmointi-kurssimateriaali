@@ -100,6 +100,9 @@ Käytä Brackeysin Godot-tutoriaaleja pohjana:
 
 ## Harjoitus 2: 3D-fysiikkapeli (Boom Blox -tyylinen tornin kaatamispeli)
 
+![Esimerkki 3D-fysiikasta Godotissa (laatikoiden/kappaleiden törmäily)](https://github.com/godotengine/godot-demo-projects/raw/master/3d/physics_tests/screenshots/physics_tests.webp)
+*Kuva: Godot Engine -tiimin virallinen "3D Physics Tests" -demoprojekti ([godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects), MIT-lisenssi).
+
 **Tavoite:** Opit 3D-fysiikan ja objektien perusteet Godotissa: `RigidBody3D`, voimat, törmäykset ja yksinkertainen ammus-/heittomekaniikka. Tässä harjoituksessa tekoälyavustuksen käyttö on sallittua apuna, mutta ymmärrä mitä teet.
 
 ### Pelin idea
