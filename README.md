@@ -73,7 +73,7 @@ Godotissa sama peli voidaan usein **exportata** eli viedä monelle alustalle (PC
 
 ### Suositeltu materiaali
 Käytä Brackeysin Godot-tutoriaaleja pohjana:
-- Brackeys: *"How to make a video game - Godot Beginner Tutorial"* (YouTube) — käy läpi projektin perustamisen, `CharacterBody2D`:n, liikkeen ja hypyn.
+- Brackeys: *"How to make a video game - Godot Beginner Tutorial"* (YouTube) — käy läpi projektin perustamisen, `CharacterBody2D`:n, liikkeen ja hypyn. https://www.youtube.com/watch?v=LOhfqjmasi0
 - Godotin virallinen dokumentaatio: *"Your first 2D game"* ([docs.godotengine.org](https://docs.godotengine.org) → "Step by step" → "Your first game").
 
 ### Tehtävän vaiheet
