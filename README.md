@@ -118,10 +118,6 @@ Videopeli ei ole vain grafiikkaa tai ohjelmointia.
 
 **Peli syntyy useiden eri järjestelmien yhteistyöstä.**
 
-Seuraavaksi rakennamme näitä osia itse Godotissa ja näemme käytännössä, miten ne liittyvät toisiinsa.
-
-Videopeli ei ole tyypillisesti yhden henkilön tai yhden tiedoston tuotos, vaan monen osa-alueen summa. Käydään läpi pelien tärkeimmät palikat ja mitä ne pitävät sisällään.
-
 | Osa-alue | Mitä videopeli sisältää | Esimerkki Godotissa |
 | --- | --- | --- |
 | **Koodi / ohjelmointi** | Pelilogiikka, säännöt, tilakoneet, tekoäly, tallennusjärjestelmät | GDScript-skriptit |
