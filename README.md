@@ -76,7 +76,7 @@ Käytä Brackeysin Godot-tutoriaaleja pohjana:
 - Brackeys: *"How to make a video game - Godot Beginner Tutorial"* (YouTube) — käy läpi projektin perustamisen, `CharacterBody2D`:n, liikkeen ja hypyn. https://www.youtube.com/watch?v=LOhfqjmasi0
 - Godotin virallinen dokumentaatio: *"Your first 2D game"* ([docs.godotengine.org](https://docs.godotengine.org) → "Getting Started" → "Step by step").
 
-### Tehtävän vaiheet
+### Tehtävien vaiheet
 1. **Projektin perustaminen:** Luo uusi 2D-projekti Godotissa.
 2. **Pelaajahahmo:** Luo `CharacterBody2D`-noodi, lisää `Sprite2D`/`AnimatedSprite2D` ja `CollisionShape2D`.
 3. **Liikkuminen:** Toteuta vasen/oikea-liike `Input.get_axis()`-funktiolla ja `velocity`-muuttujalla.
@@ -86,11 +86,7 @@ Käytä Brackeysin Godot-tutoriaaleja pohjana:
 7. **Tavoite/päätepiste:** Lisää esimerkiksi kerättävä esine (`Area2D`) tai maali, joka päättää tason.
 8. **(Valinnainen) Viholliset:** Yksinkertainen edestakaisin liikkuva vihollinen, joka ei vaadi tekoälyä — vain suunnan vaihto törmäyksessä.
 
-### Palautettava
-- Godot-projekti (.zip tai Git-repositorio) jossa pelattava tasohyppely: pelaaja liikkuu, hyppää, ei putoa tason läpi, ja tasolla on selkeä alku ja loppu.
-- Lyhyt (max 1 sivu) kuvaus: mitä teit, mistä opit, mikä oli vaikeinta.
-
-### Suorituskriteerit
+### Kriteerit
 - Pelaaja liikkuu ja hyppää sulavasti.
 - Törmäykset toimivat (esim. ei putoamista läpi tason).
 - Koodi on jaoteltu loogisiin funktioihin ja kommentoitu ymmärrettävästi.
