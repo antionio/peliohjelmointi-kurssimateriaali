@@ -5,7 +5,118 @@
 
 ## Osa 1: Pelinkehityksen perusteet
 
-### 1.1 Mistä videopelit koostuvat?
+### 1.1 🎮 Mistä digitaalinen videopeli oikeastaan koostuu?
+
+Videopeli näyttää pelaajalle usein yksinkertaiselta: painat ohjaimen nappia ja hahmo tekee jotain.
+
+Taustalla tapahtuu kuitenkin samaan aikaan monta asiaa.
+
+#### Esimerkki: Pelaaja painaa hyppynappia
+
+Kuvitellaan tavallinen 2D-tasohyppelypeli.
+
+Pelaaja painaa **hyppynappia**.
+
+1. 🎮 **Input**
+   - Peli huomaa, että pelaaja painoi hyppynappia.
+
+2. 💻 **Koodi**
+   - Koodi tarkistaa, saako hahmo hypätä.
+   - Esimerkiksi: onko hahmo tällä hetkellä maassa vai ilmassa?
+
+3. ⚙️ **Fysiikka**
+   - Hahmolle annetaan nopeutta ylöspäin.
+   - Painovoima alkaa vetää hahmoa takaisin alaspäin.
+
+4. 🧱 **Törmäykset**
+   - Peli tarkistaa, osuuko hahmo maahan, seinään tai tasoon.
+   - Hahmo ei saa pudota lattian läpi.
+
+5. 🎨 **Grafiikka ja animaatio**
+   - Pelaajan hyppyanimaatio käynnistyy.
+   - Hahmon ulkonäkö muuttuu liikkeen mukaan.
+
+6. 🔊 **Äänet**
+   - Hyppyääni toistetaan.
+
+7. 📷 **Kamera**
+   - Kamera voi seurata pelaajaa tämän liikkuessa.
+
+8. 🖥️ **Käyttöliittymä**
+   - Pisteet, elämät ja muu pelin käyttöliittymä pysyvät näkyvissä.
+
+9. 🎵 **Musiikki**
+   - Taustamusiikki jatkuu samalla normaalisti.
+
+#### Yksi napinpainallus käynnistää monta asiaa
+
+Siis:
+
+**Pelaaja painaa hyppynappia**
+
+⬇️
+
+**Input tunnistetaan**
+
+⬇️
+
+**Koodi päättää mitä tapahtuu**
+
+⬇️
+
+**Fysiikka liikuttaa hahmoa**
+
+⬇️
+
+**Törmäykset tarkistetaan**
+
+⬇️
+
+**Animaatio näytetään ja ääni toistetaan**
+
+Kaikki tämä tapahtuu niin nopeasti, että pelaajalle se näyttää vain yhdeltä yksinkertaiselta asialta:
+
+> **Hahmo hyppää.**
+
+---
+
+### 🤔 Pohdi
+
+Valitse jokin peli, jota olet itse pelannut.
+
+Mieti jokin yksinkertainen tapahtuma pelissä, esimerkiksi:
+
+- hahmo hyppää
+- pelaaja ampuu
+- auto törmää seinään
+- pelaaja kerää kolikon
+- vihollinen huomaa pelaajan
+- pelaaja avaa oven
+
+**Mitä pelin eri osa-alueita tapahtumaan tarvitaan?**
+
+Pohdi ainakin:
+
+- 🎮 Input
+- 💻 Koodi
+- ⚙️ Fysiikka
+- 🧱 Törmäykset
+- 🎨 Grafiikka
+- 🎞️ Animaatio
+- 🔊 Äänet
+- 🎵 Musiikki
+- 📷 Kamera
+- 🖥️ Käyttöliittymä
+
+---
+
+### 💡 Tärkein ajatus
+
+Videopeli ei ole vain grafiikkaa tai ohjelmointia.
+
+**Peli syntyy useiden eri järjestelmien yhteistyöstä.**
+
+Seuraavaksi rakennamme näitä osia itse Godotissa ja näemme käytännössä, miten ne liittyvät toisiinsa.
 
 Videopeli ei ole tyypillisesti yhden henkilön tai yhden tiedoston tuotos, vaan monen osa-alueen summa. Käydään läpi pelien tärkeimmät palikat ja mitä ne pitävät sisällään.
 
