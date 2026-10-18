@@ -11,6 +11,8 @@ Videopeli näyttää pelaajalle usein yksinkertaiselta: painat ohjaimen nappia j
 
 Taustalla tapahtuu kuitenkin samaan aikaan monta asiaa.
 
+![GIF-animaatio tasohyppelypelistä](https://img.itch.zone/aW1hZ2UvNDkwNzk4LzI1Mzk2NDYuZ2lm/original/M31a%2B2.gif)
+
 #### Esimerkki: Pelaaja painaa hyppynappia
 
 Kuvitellaan tavallinen 2D-tasohyppelypeli.
