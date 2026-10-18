@@ -169,7 +169,7 @@ Pelin suunnittelusta vastaa tyypillisesti **pelisuunnittelija (game designer)**,
 | **Mobiili** | Kosketusnäyttö, kallistus (gyroskooppi) | Rajallinen akku ja teho, lämpeneminen | Pieni näyttö, pystysuunta yleistä | Lyhyet pelisessiot, kosketuskontrollien suunnittelu |
 | **Selain (Web)** | Näppäimistö/hiiri/kosketus | Rajoitettu muisti, lataa heti | Ikkunan koko vaihtelee | Nopea pääsy ilman asennusta |
 
-Godotissa sama peli voidaan usein **exportata** eli viedä monelle alustalle (PC, mobiili, web, konsoli), mutta ohjelmoijan on silti suunniteltava input ja käyttöliittymä alustakohtaisesti (esim. `Input`-toimintojen mappaus eri laitteille, UI:n skaalautuvuus eri näytönkooille).
+Godotissa sama peli voidaan usein **exportata** eli viedä monelle alustalle (PC, mobiili, web, konsoli), mutta ohjelmoijan on silti suunniteltava input ja käyttöliittymä alustakohtaisesti (esim. `Input`-toimintojen mappaus eri laitteille, UI:n skaalautuvuus eri näytönkooille). Käytämme tällä kurssilla kuitenkin vain PC-koneen hiirtä ja näppäimistöä.
 
 ---
 
