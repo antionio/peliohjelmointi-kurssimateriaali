@@ -171,7 +171,61 @@ Pelin suunnittelusta vastaa tyypillisesti **pelisuunnittelija (game designer)**,
 
 Godotissa sama peli voidaan usein **exportata** eli viedä monelle alustalle (PC, mobiili, web, konsoli), mutta ohjelmoijan on silti suunniteltava input ja käyttöliittymä alustakohtaisesti (esim. `Input`-toimintojen mappaus eri laitteille, UI:n skaalautuvuus eri näytönkooille). Käytämme tällä kurssilla kuitenkin vain PC-koneen hiirtä ja näppäimistöä.
 
----
+## 1.5 Miksi käytämme pelimoottoria?
+
+Tekoälyllä voidaan nykyään luoda nopeasti pieniä pelejä ja toimivia prototyyppejä. Miksi siis opettelemme käyttämään Godotin kaltaista pelimoottoria?
+
+### 🎮 Mitä pelimoottori tekee?
+
+Peli koostuu monesta eri osasta:
+
+- grafiikasta ja animaatioista
+- pelaajan ohjauksesta
+- fysiikasta ja törmäyksistä
+- äänistä ja musiikista
+- käyttöliittymästä
+- pelilogiikasta
+- kentistä ja kamerasta
+
+Pelimoottori tarjoaa valmiin ympäristön näiden rakentamiseen ja yhdistämiseen.
+
+Esimerkiksi Godotissa pelaajahahmo voi koostua useista nodeista:
+
+```text
+Player
+├── AnimatedSprite2D
+├── CollisionShape2D
+└── Camera2D
+```
+
+Jokaisella osalla on oma tehtävänsä.
+
+### 🤖 Miksi emme vain generoi peliä tekoälyllä?
+
+Tekoäly voi tehdä nopeasti toimivan prototyypin, mutta **toimiva peli ja pelin toiminnan ymmärtäminen ovat eri asioita**.
+
+Kun peliä halutaan muuttaa, korjata tai laajentaa, täytyy ymmärtää esimerkiksi:
+
+- miten pelaajan liikkuminen toimii
+- miten törmäykset tunnistetaan
+- missä pelin logiikka sijaitsee
+- miten pelin eri osat liittyvät toisiinsa
+
+### 🛠️ Godot + ohjelmointi + tekoäly
+
+Tällä kurssilla tekoälyä ja pelimoottoria ei ajatella kilpailijoina.
+
+```text
+Godot + GDScript + tekoäly + oma osaaminen
+                     ↓
+                Pelinkehitys
+```
+
+Godot tarjoaa ympäristön pelin rakentamiseen. GDScriptillä määritämme pelin toimintaa ja tekoälyä voimme käyttää apuna esimerkiksi ideoinnissa, koodin ymmärtämisessä ja ongelmien ratkaisemisessa.
+
+**Myöhemmin kurssilla kokeilemme myös tekoälyn kytkemistä suoraan pelimoottoriin ja tutkimme, miten tekoälyä voidaan hyödyntää osana itse peliä.**
+
+> 💡 **Tavoitteena ei ole vain saada peli toimimaan, vaan ymmärtää, miten ja miksi se toimii.**
 
 ## Harjoitus 1: 2D-tasohyppelypeli (ilman tekoälyavustusta)
 
