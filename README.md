@@ -271,6 +271,8 @@ Videota ei tarvitse katsoa kerralla kokonaan. Video on jaettu pienempiin osiin, 
 
 **Katso videosta:** 0:00–5:32
 
+![Lataa Assetit](https://brackeysgames.itch.io/brackeys-platformer-bundle)
+
 ### Tavoite
 
 Opit luomaan uuden Godot-projektin ja tuomaan peliin valmiita resursseja eli assetteja.
